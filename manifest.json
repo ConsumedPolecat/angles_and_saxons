@@ -1,0 +1,25 @@
+{
+    "info": {
+      "name": "Angles and Saxons",
+      "namespace": "angles_and_saxons",
+      "version": 3,
+	  "Author" : "Ghostrafter and Consumepolecat"
+	},
+	"default_locale" : "en",
+	"aliases": {
+		"weapons:iron_pole_axe"	: "file(entities/weapons/iron_pole_axe/iron_pole_axe.json)",
+		"weapons:steel_pole_axe" : "file(entities/weapons/steel_pole_axe/steel_pole_axe.json)",
+		"armor:wooden_roundshield" : "file(entities/armor/wooden_roundshield/wooden_roundshield.json)",
+		"armor:iron_banded_wooden_roundshield" : "file(entities/armor/iron_banded_wooden_roundshield/iron_banded_wooden_roundshield.json)"
+	},
+	"mixintos": {
+	"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)",
+	"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)"
+	},
+	"overrides": {
+	},
+	"component": {
+	},
+	"controllers": {
+	}
+}
