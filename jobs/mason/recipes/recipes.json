@@ -1,0 +1,14 @@
+{
+   "craftable_recipes" : {
+      "armor" : {
+         "recipes" : {
+            "wooden_roundshield" : {
+               "recipe" : "file(wooden_roundshield_recipe.json)"
+			},
+			"iron_banded_wooden_roundshield" : {
+				"recipe" : "file(iron_banded_wooden_roundshield_recipe.json)"
+			}
+         }
+      }
+   }
+}
