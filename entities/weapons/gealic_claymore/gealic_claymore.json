@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(steel_pole_axe_empty.qb)"
+               "file(gealic_claymore_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(steel_pole_axe_iconic.json)"
+         "iconic_form": "file(gealic_claymore_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -31,7 +31,7 @@
    "entity_data": {
       "stonehearth:combat:weapon_data": {
          "base_damage": 30,
-         "reach": 3.5
+         "reach": 3.0
       },
       "stonehearth:combat:melee_attacks": [
          {
@@ -53,9 +53,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(angles_and_saxons:entities.weapons.steel_pole_axe.display_name)",
-         "description": "i18n(angles_and_saxons:entities.weapons.steel_pole_axe.description)",
-         "icon": "file(steel_pole_axe.png)",
+         "display_name": "i18n(angles_and_saxons:entities.weapons.gealic_claymore.display_name)",
+         "description": "i18n(angles_and_saxons:entities.weapons.gealic_claymore.description)",
+         "icon": "file(gealic_claymore.png)",
          "category": "weapons",
          "material_tags": "steel melee_weapon crafted stockpile_weapon"
       }

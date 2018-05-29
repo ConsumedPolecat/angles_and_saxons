@@ -16,6 +16,22 @@
 					"display_name" : "Steel Pole Axe",
 					"description" : "Long and Choppy!"			
 				}
+			},
+			"stone_seax" : {
+				"display_name" : "Stone Seax",
+				"description" : "A stone seax.",
+				"steel_pole_axe_iconic" : {
+					"display_name" : "Stone Seax",
+					"description" : "Your basic seax!"			
+				}
+			},
+			"gealic_claymore" : {
+				"display_name" : "Gealic Claymore",
+				"description" : "A massive Gealic Claymore.",
+				"steel_pole_axe_iconic" : {
+					"display_name" : "Gealic Claymore",
+					"description" : "Long and Slicey!"			
+				}
 			}
 		},
 		"armor" : {
@@ -46,9 +62,14 @@
 					"recipe_name" : "Iron Pole Axe"
 				},
 				"steel_pole_axe" : {
-					"description" : "An Steel pole axe",
+					"description" : "A Steel pole axe",
 					"flavor" : "I shall keep mine enemies at more than arm's length.",
 					"recipe_name" : "Steel Pole Axe"
+				},
+				"gealic_claymore" : {
+					"description" : "A Claidheamh-mór",
+					"flavor" : "I see you have a wee little knife; don't get too close.",
+					"recipe_name" : "Gealic Claymore"
 				}
 			}
 		},
@@ -64,6 +85,15 @@
 					"flavor" : "I wonder how bad it would hurt to be hit by this.",
 					"recipe_name" : "Iron Banded Wooden Roundshield"
 				}
+			}
+		},
+		"mason" : {
+			"recipes" : {
+				"stone_seax" : {
+					"description" : "A Stone Seax",
+					"flavor" : "I can now defend my home, my family, and my town!",
+					"recipe_name" : "Stone Seax"
+				},
 			}
 		}
 	}

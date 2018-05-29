@@ -7,6 +7,9 @@
                 },
 				"steel_pole_axe": {
 					"recipe": "file(steel_pole_axe_recipe.json)"
+				},
+				"gealic_claymore" : {
+					"recipe" : "file(gealic_claymore_recipe.json)"
 				}
 			}
 		}

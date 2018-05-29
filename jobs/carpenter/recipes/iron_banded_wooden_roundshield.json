@@ -6,7 +6,7 @@
    "flavor": "i18n(angles_and_saxons:jobs.carpenter.recipes.iron_banded_wooden_roundshield.flavor)",
    "portrait": "/angles_and_saxons/entities/armor/iron_banded_wooden_roundshield/iron_banded_wooden_roundshield.png",
    "workshop": "stonehearth:carpenter:toolbench",
-   "level_requirement": 2,
+   "level_requirement": 3,
    "ingredients": [
       {
          "material": "wood resource",

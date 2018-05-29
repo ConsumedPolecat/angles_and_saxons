@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(steel_pole_axe_empty.qb)"
+               "file(stone_seax_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(steel_pole_axe_iconic.json)"
+         "iconic_form": "file(stone_seax_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -53,9 +53,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(angles_and_saxons:entities.weapons.steel_pole_axe.display_name)",
-         "description": "i18n(angles_and_saxons:entities.weapons.steel_pole_axe.description)",
-         "icon": "file(steel_pole_axe.png)",
+         "display_name": "i18n(angles_and_saxons:entities.weapons.stone_seax.display_name)",
+         "description": "i18n(angles_and_saxons:entities.weapons.stone_seax.description)",
+         "icon": "file(stone_seax.png)",
          "category": "weapons",
          "material_tags": "steel melee_weapon crafted stockpile_weapon"
       }
