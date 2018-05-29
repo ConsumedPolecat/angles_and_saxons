@@ -1,0 +1,11 @@
+{
+	"craftable_recipes": {
+        "weapons": {
+            "recipes": {
+				"stone_seax": {
+					"recipe": "file(stone_seax_recipe.json)"
+				}
+			}
+		}
+	}
+}

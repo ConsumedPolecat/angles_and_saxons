@@ -1,0 +1,73 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(iron_pole_axe_empty.qb)",
+			{
+			"type": "one_of", 
+			"items": [
+               "file(iron_pole_axe_equipped.qb)",
+			   "file(iron_pole_axe_2.qb)",
+			   "file(iron_pole_axe_3.qb)",
+			   "file(iron_pole_axe_4.qb)",
+			   "file(iron_pole_axe_5.qb)"
+			]
+			}
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(iron_pole_axe_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "additional_equipment": {
+            "stonehearth:armor:offhand_placeholder": true
+         },
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ],
+         "ilevel": 20,
+         "roles": "footman_job",
+         "required_job_level": 3,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 25,
+         "reach": 3.5
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_2h_attack",
+            "effect": "combat_2h_attack",
+            "active_frame": 21,
+            "cooldown": 0,
+            "priority": 2
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 50,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(angles_and_saxons:entities.weapons.iron_pole_axe.display_name)",
+         "description": "i18n(angles_and_saxons:entities.weapons.iron_pole_axe.description)",
+         "icon": "file(iron_pole_axe.png)",
+         "category": "weapons",
+         "material_tags": "iron melee_weapon crafted stockpile_weapon"
+      }
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "i18n(angles_and_saxons:data.buffs.bloodlust.display_name)",
+   "description": "i18n(angles_and_saxons:data.buffs.bloodlust.description)",
+   "icon": "file(bloodlust_buff.png)",
+   "modifiers": {
+      "courage": {
+         "add": 200
+      },
+      "menace": {
+         "add": 100
+      }, 
+       "stamina": {
+         "add": 80
+      }
+   }
+}
