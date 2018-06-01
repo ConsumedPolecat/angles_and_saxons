@@ -14,42 +14,32 @@
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
-         "additional_equipment": {
-            "stonehearth:armor:offhand_placeholder": true
-         },
          "render_type": "attach_to_bone",
          "postures": [
             "stonehearth:combat",
             "stonehearth:patrol"
-         ],
-         "ilevel": 20,
-         "roles": "footman_job",
-         "required_job_level": 4,
-         "equip_effect": "stonehearth:effects:weapon_level_up"
+         ]
       }
    },
    "entity_data": {
       "stonehearth:combat:weapon_data": {
-         "base_damage": 30,
-         "reach": 3.5
+         "base_damage": 15,
+         "reach": 1.0
       },
       "stonehearth:combat:melee_attacks": [
          {
-            "name": "combat_2h_attack",
-            "effect": "combat_2h_attack",
-            "active_frame": 21,
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
             "cooldown": 0,
-            "priority": 2
+            "priority": 0
          }
       ],
       "stonehearth:net_worth": {
-         "value_in_gold": 60,
-         "rarity": "common",
+         "value_in_gold": 0,
          "shop_info": {
-            "buyable": true,
-            "sellable": true,
-            "shopkeeper_level": 3,
-            "shopkeeper_type": "caravan"
+            "buyable": false,
+            "sellable": false
          }
       },
       "stonehearth:catalog": {
@@ -57,7 +47,7 @@
          "description": "i18n(angles_and_saxons:entities.weapons.stone_seax.description)",
          "icon": "file(stone_seax.png)",
          "category": "weapons",
-         "material_tags": "steel melee_weapon crafted stockpile_weapon"
+         "material_tags": "stone melee_weapon"
       }
    }
 }
