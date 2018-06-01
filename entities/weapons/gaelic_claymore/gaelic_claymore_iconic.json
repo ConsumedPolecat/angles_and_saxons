@@ -5,16 +5,16 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(gealic_claymore.qb)"
+               "file(gaelic_claymore.qb)"
             ]
          }
       }
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(angles_and_saxons:entities.weapons.gealic_claymore.gealic_claymore_iconic.display_name)",
-         "description": "i18n(angles_and_saxons:entities.weapons.gealic_claymore.gealic_claymore_iconic.description)",
-         "icon": "file(gealic_claymore.png)",
+         "display_name": "i18n(angles_and_saxons:entities.weapons.gaelic_claymore.gaelic_claymore_iconic.display_name)",
+         "description": "i18n(angles_and_saxons:entities.weapons.gaelic_claymore.gaelic_claymore_iconic.description)",
+         "icon": "file(gaelic_claymore.png)",
          "is_item": true,
          "category": "weapons"
       }

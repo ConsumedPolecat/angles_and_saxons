@@ -10,9 +10,19 @@
 		"weapons:iron_pole_axe"	: "file(entities/weapons/iron_pole_axe/iron_pole_axe.json)",
 		"weapons:steel_pole_axe" : "file(entities/weapons/steel_pole_axe/steel_pole_axe.json)",
 		"weapons:stone_seax" : "file(entities/weapons/stone_seax/stone_seax.json)",
-		"weapons:gealic_claymore" : "file(entities/weapons/gealic_claymore/gaelic_claymore.json)",
+		"weapons:gaelic_claymore" : "file(entities/weapons/gaelic_claymore/gaelic_claymore.json)",
 		"armor:wooden_roundshield" : "file(entities/armor/wooden_roundshield/wooden_roundshield.json)",
-		"armor:iron_banded_wooden_roundshield" : "file(entities/armor/iron_banded_wooden_roundshield/iron_banded_wooden_roundshield.json)"
+		"armor:iron_banded_wooden_roundshield" : "file(entities/armor/iron_banded_wooden_roundshield/iron_banded_wooden_roundshield.json)",
+		"plants:pink_rose_bush": "file(entities/plants/pink_rose_bush_plant)",
+		"plants:pink_rose_bush:bud": "file(entities/plants/pink_rose_bush_plant/bud/pink_rose_bush_plant_bud.json)",
+		"plants:pink_rose_bush:seed": "file(entities/plants/pink_rose_bush_plant/seed/pink_rose_bush_plant_seed.json)",
+		"plants:pink_rose_bush:sprout": "file(entities/plants/pink_rose_bush_plant/sprout/pink_rose_bush_plant_sprout.json)",
+		"plants:pink_rose_bush:stem": "file(entities/plants/pink_rose_bush_plant/stem/pink_rose_bush_plant_stem.json)",
+		"plants:red_rose_bush": "file(entities/plants/red_rose_bush_plant)",
+		"plants:red_rose_bush:bud": "file(entities/plants/red_rose_bush_plant/bud/red_rose_bush_plant_bud.json)",
+		"plants:red_rose_bush:seed": "file(entities/plants/red_rose_bush_plant/seed/red_rose_bush_plant_seed.json)",
+		"plants:red_rose_bush:sprout": "file(entities/plants/red_rose_bush_plant/sprout/red_rose_bush_plant_sprout.json)",
+		"plants:red_rose_bush:stem": "file(entities/plants/red_rose_bush_plant/stem/red_rose_bush_plant_stem.json)"
 	},
 	"mixintos": {
 	"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)",

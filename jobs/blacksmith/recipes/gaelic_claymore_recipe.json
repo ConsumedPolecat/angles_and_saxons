@@ -2,12 +2,12 @@
    "type": "recipe",
    "effort": 120,
    "work_units": 9,
-   "recipe_name": "i18n(angles_and_saxons:jobs.blacksmith.recipes.gealic_claymore.recipe_name)",
-   "description": "i18n(angles_and_saxons:jobs.blacksmith.recipes.gealic_claymore.description)",
-   "flavor": "i18n(angles_and_saxons:jobs.blacksmith.recipes.gealic_claymore.flavor)",
-   "portrait": "/angles_and_saxons/entities/weapons/gealic_claymore/gealic_claymore.png",
+   "recipe_name": "i18n(angles_and_saxons:jobs.blacksmith.recipes.gaelic_claymore.recipe_name)",
+   "description": "i18n(angles_and_saxons:jobs.blacksmith.recipes.gaelic_claymore.description)",
+   "flavor": "i18n(angles_and_saxons:jobs.blacksmith.recipes.gaelic_claymore.flavor)",
+   "portrait": "/angles_and_saxons/entities/weapons/gaelic_claymore/gaelic_claymore.png",
    "workshop": "stonehearth:blacksmith:workbench",
-   "level_requirement": 3,
+   "level_requirement": 6,
    "ingredients": [
       {
          "uri": "stonehearth:refined:iron_ingot",
@@ -24,7 +24,7 @@
    ],
    "produces": [
       {
-         "item": "angles_and_saxons:weapons:gealic_claymore"
+         "item": "angles_and_saxons:weapons:gaelic_claymore"
       }
    ]
 }

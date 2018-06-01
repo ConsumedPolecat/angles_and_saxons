@@ -25,11 +25,11 @@
 					"description" : "Your basic seax!"			
 				}
 			},
-			"gealic_claymore" : {
-				"display_name" : "Gealic Claymore",
-				"description" : "A massive Gealic Claymore.",
-				"steel_pole_axe_iconic" : {
-					"display_name" : "Gealic Claymore",
+			"gaelic_claymore" : {
+				"display_name" : "Gaelic Claymore",
+				"description" : "A massive Gaelic Claymore.",
+				"gaelic_claymore_iconic" : {
+					"display_name" : "Gaelic Claymore",
 					"description" : "Long and Slicey!"			
 				}
 			}
@@ -51,6 +51,58 @@
 					"description" : "It shows my Christianity!"			
 				}
 			}
+		},
+		"plants" : {
+			"pink_rose_bush": {
+				"display_name": "Wild Rose",
+				"description": "Can be harvested for making dyes",
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"seed": {
+					"pink_rose_bush_plant_seed_ghost": {
+						"display_name": "Wild Rose Seed",
+						"description": "Once planted, it will grow into a beautiful bush"
+					},
+					"pink_rose_bush_plant_sprout": {
+						"display_name": "Wild Rose Bush Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"pink_rose_bush_plant_stem": {
+						"display_name": "Wild Stemming Rose Bush",
+						"description": "Still growing!"
+					},
+					"pink_rose_bush_plant_bud": {
+						"display_name": "Wild Budding Rose Bush",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				}
+			},
+			"red_rose_bush": {
+				"display_name": "Wild Rose",
+				"description": "Can be harvested for to make dyes",
+				"unripe_description": "This plant has been harvested and has not grown back yet",
+				"seed": {
+					"red_rose_bush_plant_seed_ghost": {
+						"display_name": "Wild Rose Seed",
+						"description": "Once planted, it will grow into a beautiful bush"
+					},
+					"red_rose_bush_plant_sprout": {
+						"display_name": "Wild Rose Bush Sproutling",
+						"description": "Just needs some time and care."
+					}
+				},
+				"stem": {
+					"red_rose_bush_plant_stem": {
+						"display_name": "Wild Stemming Rose Bush",
+						"description": "Still growing!"
+					},
+					"red_rose_bush_plant_bud": {
+						"display_name": "Wild Budding Rose Bush",
+						"description": "Its almost there!  Look, it has buds!"
+					}
+				}
+			}
 		}
 	},
 	"jobs" : {
@@ -66,10 +118,10 @@
 					"flavor" : "I shall keep mine enemies at more than arm's length.",
 					"recipe_name" : "Steel Pole Axe"
 				},
-				"gealic_claymore" : {
+				"gaelic_claymore" : {
 					"description" : "A Claidheamh-mór",
 					"flavor" : "I see you have a wee little knife; don't get too close.",
-					"recipe_name" : "Gealic Claymore"
+					"recipe_name" : "Gaelic Claymore"
 				}
 			}
 		},

@@ -19,7 +19,7 @@
    ],
    "produces": [
       {
-         "item": "angles_and_saxons:iron_banded_wooden_roundshield"
+         "item": "angles_and_saxons:armor:iron_banded_wooden_roundshield"
       }
    ]
 }

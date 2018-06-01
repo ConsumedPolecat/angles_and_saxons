@@ -5,12 +5,12 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(gealic_claymore_equipped.qb)"
+               "file(gaelic_claymore_equipped.qb)"
             ]
          }
       },
       "stonehearth:entity_forms": {
-         "iconic_form": "file(gealic_claymore_iconic.json)"
+         "iconic_form": "file(gaelic_claymore_iconic.json)"
       },
       "stonehearth:equipment_piece": {
          "slot": "mainhand",
@@ -53,9 +53,9 @@
          }
       },
       "stonehearth:catalog": {
-         "display_name": "i18n(angles_and_saxons:entities.weapons.gealic_claymore.display_name)",
-         "description": "i18n(angles_and_saxons:entities.weapons.gealic_claymore.description)",
-         "icon": "file(gealic_claymore.png)",
+         "display_name": "i18n(angles_and_saxons:entities.weapons.gaelic_claymore.display_name)",
+         "description": "i18n(angles_and_saxons:entities.weapons.gaelic_claymore.description)",
+         "icon": "file(gaelic_claymore.png)",
          "category": "weapons",
          "material_tags": "steel melee_weapon crafted stockpile_weapon"
       }

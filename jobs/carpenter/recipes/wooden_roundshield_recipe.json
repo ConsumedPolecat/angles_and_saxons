@@ -15,7 +15,7 @@
    ],
    "produces": [
       {
-         "item": "angles_and_saxons:wooden_roundshield"
+         "item": "angles_and_saxons:armor:wooden_roundshield"
       }
    ]
 }
