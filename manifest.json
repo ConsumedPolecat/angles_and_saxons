@@ -29,7 +29,7 @@
 	"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)",
 	"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)",
 	"stonehearth/jobs/mason/recipes/recipes.json" : "file(jobs/mason/recipes/recipes.json)",
-	"/stonehearth/data/biome/temperate_generation_data.json" "angles_and_saxons:data:biome:generation"
+	"/stonehearth/data/biome/temperate_generation_data.json" : "angles_and_saxons:data:biome:generation"
 	},
 	"overrides": {
 	},
