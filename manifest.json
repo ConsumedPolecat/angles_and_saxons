@@ -7,6 +7,7 @@
 	},
 	"default_locale" : "en",
 	"aliases": {
+		"data:biome:generation": "file(data/biome/generation_data.json)",
 		"weapons:iron_pole_axe"	: "file(entities/weapons/iron_pole_axe/iron_pole_axe.json)",
 		"weapons:steel_pole_axe" : "file(entities/weapons/steel_pole_axe/steel_pole_axe.json)",
 		"weapons:stone_seax" : "file(entities/weapons/stone_seax/stone_seax.json)",
@@ -27,7 +28,8 @@
 	"mixintos": {
 	"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)",
 	"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)",
-	"stonehearth/jobs/mason/recipes/recipes.json" : "file(jobs/mason/recipes/recipes.json)"
+	"stonehearth/jobs/mason/recipes/recipes.json" : "file(jobs/mason/recipes/recipes.json)",
+	"/stonehearth/data/biome/temperate_generation_data.json" "angles_and_saxons:data:biome:generation"
 	},
 	"overrides": {
 	},

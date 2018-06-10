@@ -1,0 +1,62 @@
+{
+	"landscape": {
+        "placement_table": {
+			"angles_and_saxons:entities:plants:red_rose_bush": {
+                "placement_type": "pattern",
+                "parameters": {
+                    "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+                    "min_rows": 2,
+                    "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+                    "max_rows": 3,
+                    "__comment": "Minimum Columns. Def 2",
+                    "min_cols": 2,
+                    "__comment": "Maximum Columns. Def 3",
+                    "max_cols": 3,
+                    "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+                    "item_spacing": 3,
+                    "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+                    "item_density": 0.6
+                },
+				"angles_and_saxons:entities:plants:pink_rose_bush": {
+                "placement_type": "pattern",
+                "parameters": {
+                    "__comment": "Minimum Rows. Def 2, Values 0 to 2.",
+                    "min_rows": 2,
+                    "__comment": "Maximum Rows. Def 2, Values 1 to 5.",
+                    "max_rows": 3,
+                    "__comment": "Minimum Columns. Def 2",
+                    "min_cols": 2,
+                    "__comment": "Maximum Columns. Def 3",
+                    "max_cols": 3,
+                    "__comment": "This is the space between the items placed; actually is one less than the value. Def 5",
+                    "item_spacing": 3,
+                    "__comment": "This value is a percentage of the rows and columns above. Def 0.9, Values 0 to 1",
+                    "item_density": 0.6
+                }
+			}
+		},
+		 "scattered": {
+            "plants": {
+                "__comment": "for example, a small probability with a large density would be more clustered than a large probability with small density.",
+                "weights": {
+                    "plains": {
+                        "1": {
+                            "angles_and_saxons:entities:plants:red_rose_bush": 1,
+                            "angles_and_saxons:entities:plants:pink_rose_bush": 0.5
+                        }
+                    },
+                    "foothills": {
+                        "1": {
+                            "angles_and_saxons:entities:plants:red_rose_bush": 1,
+                            "angles_and_saxons:entities:plants:pink_rose_bush": 0.7
+                        },
+                        "2": {
+                            "angles_and_saxons:entities:plants:red_rose_bush": 1,
+							"angles_and_saxons:entities:plants:pink_rose_bush": 0.7
+                        }
+					}
+				}
+			}
+		}
+	}
+}
