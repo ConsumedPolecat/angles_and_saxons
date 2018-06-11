@@ -6,7 +6,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(pink_rose_bush_sprout.qb)"
+               "file(red_rose_bush_stem.qb)"
             ]
          }
       },
@@ -17,13 +17,13 @@
    },
    "entity_data": {
       "stonehearth:evolve_data": {
-         "next_stage": "angles_and_saxons:plants:plants:pink_rose_bush:stem",
+         "next_stage": "angles_and_saxons:plants:plants:red_rose_bush:bud",
          "evolve_time": "15h+2h"
       },
       "stonehearth:catalog": {
          "material_tags": "stockpile_plant",
-         "display_name": "i18n(angles_and_saxons:plants:entities.plants.pink_rose_bush.sprout.pink_rose_bush_plant_sprout.display_name)",
-         "description": "i18n(angles_and_saxons:plants:entities.plants.pink_rose_bush.sprout.pink_rose_bush_plant_sprout.description)",
+         "display_name": "i18n(angles_and_saxons:plants:entities.plants.red_rose_bush.stem.red_rose_bush_stem.display_name)",
+         "description": "i18n(angles_and_saxons:plants:entities.plants.red_rose_bush.stem.red_rose_bush_stem.description)",
          "category": "plants"
       },
       "stonehearth:appeal": {

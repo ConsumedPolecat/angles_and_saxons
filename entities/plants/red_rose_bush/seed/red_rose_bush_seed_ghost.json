@@ -11,7 +11,7 @@
                {
                   "type": "one_of",
                   "items": [
-                     "file(../pink_rose_bush.qb)"
+                     "file(../red_rose_bush.qb)"
                   ]
                }
             ]
@@ -24,9 +24,9 @@
    },
    "entity_data": {
       "stonehearth:catalog": {
-         "display_name": "i18n(angles_and_saxons:plants:entities.plants.pink_rose_bush.seed.pink_rose_bush_plant_seed_ghost.display_name)",
-         "description": "i18n(angles_and_saxons:plants:entities.plants.pink_rose_bush.seed.pink_rose_bush_plant_seed_ghost.description)",
-         "icon": "file(pink_rose_bush_plant_seed.png)",
+         "display_name": "i18n(angles_and_saxons:plants:entities.plants.red_rose_bush.seed.red_rose_bush_seed_ghost.display_name)",
+         "description": "i18n(angles_and_saxons:plants:entities.plants.red_rose_bush.seed.red_rose_bush_seed_ghost.description)",
+         "icon": "file(red_rose_bush_seed.png)",
          "category": "seed"
       }
    }

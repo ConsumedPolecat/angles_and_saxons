@@ -58,21 +58,21 @@
 				"description": "Can be harvested for making dyes",
 				"unripe_description": "This plant has been harvested and has not grown back yet",
 				"seed": {
-					"pink_rose_bush_plant_seed_ghost": {
+					"pink_rose_bush_seed_ghost": {
 						"display_name": "Wild Rose Seed",
 						"description": "Once planted, it will grow into a beautiful bush"
 					},
-					"pink_rose_bush_plant_sprout": {
+					"pink_rose_bush_sprout": {
 						"display_name": "Wild Rose Bush Sproutling",
 						"description": "Just needs some time and care."
 					}
 				},
 				"stem": {
-					"pink_rose_bush_plant_stem": {
+					"pink_rose_bush_stem": {
 						"display_name": "Wild Stemming Rose Bush",
 						"description": "Still growing!"
 					},
-					"pink_rose_bush_plant_bud": {
+					"pink_rose_bush_bud": {
 						"display_name": "Wild Budding Rose Bush",
 						"description": "Its almost there!  Look, it has buds!"
 					}
@@ -83,21 +83,21 @@
 				"description": "Can be harvested for to make dyes",
 				"unripe_description": "This plant has been harvested and has not grown back yet",
 				"seed": {
-					"red_rose_bush_plant_seed_ghost": {
+					"red_rose_bush_seed_ghost": {
 						"display_name": "Wild Rose Seed",
 						"description": "Once planted, it will grow into a beautiful bush"
 					},
-					"red_rose_bush_plant_sprout": {
+					"red_rose_bush_sprout": {
 						"display_name": "Wild Rose Bush Sproutling",
 						"description": "Just needs some time and care."
 					}
 				},
 				"stem": {
-					"red_rose_bush_plant_stem": {
+					"red_rose_bush_stem": {
 						"display_name": "Wild Stemming Rose Bush",
 						"description": "Still growing!"
 					},
-					"red_rose_bush_plant_bud": {
+					"red_rose_bush_bud": {
 						"display_name": "Wild Budding Rose Bush",
 						"description": "Its almost there!  Look, it has buds!"
 					}

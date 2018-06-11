@@ -5,7 +5,7 @@
       "model_variants": {
          "default": {
             "models": [
-               "file(pink_rose_bush_plant_seed_iconic.qb)"
+               "file(pink_rose_bush_seed_iconic.qb)"
             ]
          }
       },

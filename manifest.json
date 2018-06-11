@@ -14,22 +14,22 @@
 		"weapons:gaelic_claymore" : "file(entities/weapons/gaelic_claymore/gaelic_claymore.json)",
 		"armor:wooden_roundshield" : "file(entities/armor/wooden_roundshield/wooden_roundshield.json)",
 		"armor:iron_banded_wooden_roundshield" : "file(entities/armor/iron_banded_wooden_roundshield/iron_banded_wooden_roundshield.json)",
-		"plants:pink_rose_bush": "file(entities/plants/pink_rose_bush_plant)",
-		"plants:pink_rose_bush:bud": "file(entities/plants/pink_rose_bush_plant/bud/pink_rose_bush_plant_bud.json)",
-		"plants:pink_rose_bush:seed": "file(entities/plants/pink_rose_bush_plant/seed/pink_rose_bush_plant_seed.json)",
-		"plants:pink_rose_bush:sprout": "file(entities/plants/pink_rose_bush_plant/sprout/pink_rose_bush_plant_sprout.json)",
-		"plants:pink_rose_bush:stem": "file(entities/plants/pink_rose_bush_plant/stem/pink_rose_bush_plant_stem.json)",
-		"plants:red_rose_bush": "file(entities/plants/red_rose_bush_plant)",
-		"plants:red_rose_bush:bud": "file(entities/plants/red_rose_bush_plant/bud/red_rose_bush_plant_bud.json)",
-		"plants:red_rose_bush:seed": "file(entities/plants/red_rose_bush_plant/seed/red_rose_bush_plant_seed.json)",
-		"plants:red_rose_bush:sprout": "file(entities/plants/red_rose_bush_plant/sprout/red_rose_bush_plant_sprout.json)",
-		"plants:red_rose_bush:stem": "file(entities/plants/red_rose_bush_plant/stem/red_rose_bush_plant_stem.json)"
+		"plants:pink_rose_bush": "file(entities/plants/pink_rose_bush)",
+		"plants:pink_rose_bush:bud": "file(entities/plants/pink_rose_bush/bud/rose_bush_bud.json)",
+		"plants:pink_rose_bush:seed": "file(entities/plants/pink_rose_bush/seed/pink_rose_bush_seed.json)",
+		"plants:pink_rose_bush:sprout": "file(entities/plants/pink_rose_bush/sprout/pink_rose_bush_sprout.json)",
+		"plants:pink_rose_bush:stem": "file(entities/plants/pink_rose_bush/stem/pink_rose_bush_stem.json)",
+		"plants:red_rose_bush": "file(entities/plants/red_rose_bush)",
+		"plants:red_rose_bush:bud": "file(entities/plants/red_rose_bush/bud/rose_bush_bud.json)",
+		"plants:red_rose_bush:seed": "file(entities/plants/red_rose_bush/seed/red_rose_bush_seed.json)",
+		"plants:red_rose_bush:sprout": "file(entities/plants/red_rose_bush/sprout/red_rose_bush_sprout.json)",
+		"plants:red_rose_bush:stem": "file(entities/plants/red_rose_bush/stem/red_rose_bush_stem.json)"
 	},
 	"mixintos": {
 	"stonehearth/jobs/blacksmith/recipes/recipes.json" : "file(jobs/blacksmith/recipes/recipes.json)",
 	"stonehearth/jobs/carpenter/recipes/recipes.json" : "file(jobs/carpenter/recipes/recipes.json)",
 	"stonehearth/jobs/mason/recipes/recipes.json" : "file(jobs/mason/recipes/recipes.json)",
-	"/stonehearth/data/biome/temperate_generation_data.json" : "angles_and_saxons:data:biome:generation"
+	"stonehearth/data/biome/temperate_generation_data.json" : "file(data/biome/generation.json)"
 	},
 	"overrides": {
 	},
